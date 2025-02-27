@@ -1,6 +1,5 @@
 <h1 style="text-align:center;">Lesson 1 </h1>
 
-> Assalamu alaykum JavaScript darslarimizga xush kelibsiz! Bugundan sizlar bilan JavaScriptni mukammal o’rganishni boshlaymiz!
 
 - Dasturlash tillariga umumiy kirish.
 - JavaScript tarixi.
@@ -178,31 +177,6 @@ Agar dasturlashga kirishmoqchi bo‘lsangiz, JavaScript – eng yaxshi boshlang�
 
 <hr> <br> <br>
 
-<h1>JavaScript nima qiladi?</h1>
-
-> JavaScript veb-brauzerlar uchun asosiy dasturlash tili bo'lib, u quyidagi uchta asosiy qismdan iborat:
-
-- ECMAScript – bu JavaScriptning standartlashtirilgan asosiy qismi bo'lib, `sintaksis` va asosiy `funksiya`larni belgilaydi. <br><br>
-
-- DOM – bu HTML va XML hujjatlarining tuzilishini boshqaradi. U foydalanuvchi harakatlarini (hodisalar: `scroll`, `keyboard`) va `formalar` bilan ishlashni boshqaradi.
-
-- BOM – bu brauzerning o'ziga xos elementlarini, masalan, `location`, `history`, va `notifications` kabi funksiyalarni boshqaradi.
-
-
-![alt img](./images/js.jpg)
-
-<br><br>
-
-JavaScriptni ishlatib, siz foydalanuvchi interfeyslarini o'zgartirish, animatsiyalar yaratish, va veb sahifalarni dinamik qilish imkoniyatiga ega bo'lasiz. Masalan:
-
-- Toggle funksiyasi – elementlarni ko'rinishini o'zgartirish.
-- Navbar-shrink – skroll qilganda navigatsiya panelini kichraytirish.
-- Loading – yuklanish animatsiyalari yaratish.
-- Carousel – animatsiyalar va slayderlarni boshqarish.
-- Dark and light mode – saytning qorong'i va yorug' rejimlarini yaratish.
-
-<hr> <br> <br>
-
 
 <h1>JavaScript qanday ishlaydi.?</h1>
 
@@ -232,9 +206,9 @@ JavaScript brauzer (Chrome, Firefox, Edge) ichida "JavaScript Engine" (dvijok) y
 
 ```
 2. JavaScript qanday bajariladi?
-🔹 JavaScript interpreter va JIT kompilyator
+ JavaScript interpreter va JIT kompilyator
 JavaScript interpretatsiya qilinadigan til, ya’ni u kodni qatorma-qator bajaradi.
-🚀 Lekin zamonaviy dvijoklar JIT (Just-In-Time) Compilation orqali tez ishlashini ta’minlaydi!
+Lekin zamonaviy dvijoklar JIT (Just-In-Time) Compilation orqali tez ishlashini ta’minlaydi!
 ```
 
 1️⃣ Brauzer JavaScript kodni oladi
@@ -266,7 +240,8 @@ JavaScript asinxron ishlash imkoniyatiga ega! Bu degani, u bir vaqtda bir nechta
 
 >Event Loop – bu JavaScript’da asinxron kodni boshqaradigan mexanizm.
 
-🔹 Oddiy kod ishlash tartibi:<br>
+Oddiy kod ishlash tartibi:<br>
+
 1️⃣ JavaScript kodni bajaradi <br>
 2️⃣ Agar kod ichida API yoki setTimeout bo‘lsa, uni Web API ga yuboradi<br>
 3️⃣ Web API bajarilgandan so‘ng, Callback Queue orqali natijani qaytaradi<br>
@@ -285,16 +260,6 @@ JavaScript faqat brauzerda emas! Turli joylarda ishlashi mumkin:
 ✅ Desktop ilovalar (Electron.js) → Windows, Mac, Linux dasturlari<br>
 ✅ O‘yinlar (Phaser.js, Three.js) → 2D va 3D o‘yinlar<br>
 ✅ IoT (Arduino, Raspberry Pi) → Qurilmalarni boshqarish<br>
-
-<br><br>
-
-## JavaScript qanday ishlaydi.?
-✔ Brauzer dvijok (V8, SpiderMonkey) kodni o‘qiydi va bajaraydi<br>
-✔ JavaScript DOM orqali HTML va CSS ni o‘zgartiradi<br>
-✔ Event Loop asinxron kodni boshqaradi<br>
-✔ Kod qatorma-qator bajariladi, lekin JIT uni tezlashtiradi<br>
-
->JavaScript tez, moslashuvchan va kuchli dasturlash til.!
 
 
 <hr> <br> <br>
@@ -315,7 +280,7 @@ JavaScript faqat brauzerda emas! Turli joylarda ishlashi mumkin:
 
 - Kirish: Foydalanuvchi ma'lumotlarini olish uchun `prompt` funksiyasi ishlatiladi.
 
-- Chiqish: Ma'lumotlarni ekranga chiqarish uchun `innerHTML`, `document.write()`, `window.alert()`, `window.confirm()`, yoki `console.log()` funksiyalari ishlatiladi.!
+- Chiqish: Ma'lumotlarni ekranga chiqarish uchun `innerHTML`, `document.write()`, `window.alert()`, `window.confirm()`, yoki  (`console.log`, `error`, `warning`)  funksiyalari ishlatiladi.!
 
 <hr> <br> <br>
 
