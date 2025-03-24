@@ -87,7 +87,25 @@ let copy = [...original];
 
 <br>
 
-<img src="./images/table.png" style="width:60%;">
+# JavaScript'da Array Yaratishning 5 Usuli
+
+| #   | Usul               | Sintaksis                  | Tavsifi                                                                                     | Qachon ishlatiladi                              |
+|-----|--------------------|----------------------------|--------------------------------------------------------------------------------------------|-------------------------------------------------|
+| 1   | **Literal (`[]`)**   | `const arr = [1, 2, 3];`     | Eng sodda va keng tarqalgan usul. To‘g‘ridan-to‘g‘ri elementlar bilan array yaratadi.         | Ko‘p ishlatiladi, oddiy array yaratishda         |
+| 2   | **Constructor (`new Array()`)** | `const arr = new Array(5);` | Berilgan uzunlikka ega yoki elementlar bilan array yaratadi.                                  | Kamdan-kam ishlatiladi, uzunlik ko‘rsatish kerak bo‘lsa |
+| 3   | **Array.of()**         | `const arr = Array.of(1, 2, 3);` | Berilgan argumentlardan array yaratadi. **1 ta son** bo‘lsa ham, element sifatida qabul qiladi. | Aniq elementlar bilan array yaratishda           |
+| 4   | **Array.from()**       | `const arr = Array.from('hello');` | Iterable yoki array-like obyektlardan array yaratadi.                                           | String, Set, Map yoki array-like obyektlarda     |
+| 5   | **Spread (`...`)**     | `const arr = [...'hello'];`         | Iterable obyektni yoyib yangi array yaratadi.                                                   | Boshqa array yoki iterable obyektni yoyishda     |
+
+
+<br>
+
+Tavsiya:
+
+- Ko‘proq `[]` va `spread` operator ishlatiladi.
+- `Array.from()` va `Array.of()` maxsus holatlarda ishlatiladi.
+- `new Array()` esa kamdan-kam ishlatiladi.
+
 
 <br><br><br>
 
