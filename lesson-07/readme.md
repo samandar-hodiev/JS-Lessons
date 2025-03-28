@@ -13,8 +13,8 @@
 # isNaN
 
 > isNaN -
-> Agar qiymat NaN bo‘lsa → true qaytaradi.<br>
-> Agar qiymat raqam bo‘lsa yoki raqamga o‘girilsa → false qaytaradi.
+> Agar qiymat NaN bo‘lsa - true qaytaradi.<br>
+> Agar qiymat raqam bo‘lsa yoki raqamga o‘girilsa - false qaytaradi.
 
 Syntax: `isNaN(value)`
 
@@ -99,10 +99,10 @@ console.log(new Boolean("hello"));// [Boolean: true] (Obyekt)
 
 # Truthy and Falsy values
 
-- Falsy values 
-   
+- Falsy values
+
    - false
-   - 0 
+   - 0
    - -0
    - ""
    - null
@@ -111,8 +111,8 @@ console.log(new Boolean("hello"));// [Boolean: true] (Obyekt)
 
 <br>
 
-- Truthy values 
-   
+- Truthy values
+
     - " "
     - {}
     - []

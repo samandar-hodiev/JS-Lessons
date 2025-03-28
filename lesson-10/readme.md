@@ -34,7 +34,7 @@ Masalan, 1 dan 100 gacha bo‘lgan sonlarni ekranga chiqarish.<br>
 
 <br>
 
-- ## Syntax 
+- ## Syntax
 
 ```
 for (initializer; condition; iterator) {

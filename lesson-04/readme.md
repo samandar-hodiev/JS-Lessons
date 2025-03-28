@@ -11,15 +11,20 @@
 
 # Assignment
 
-| Operator | Example   | Same As      |
-| -------- | --------- | ------------ |
-| =        | x = y     | x = y        |
-| +=       | x += y    | x = x + y    |
-| -=       | x -= y    | x = x - y    |
-| \_=      | x \_= y   | x = x \* y   |
-| /=       | x /= y    | x = x / y    |
-| %=       | x %= y    | x = x % y    |
-| \*\*=    | x \*\*= y | x = x \*\* y |
+# JavaScript Tayinslash Operatorlari
+
+Quyida **JavaScript** dagi tayinslash operatorlari va ularning ma'nolari keltirilgan:
+
+| Operator | Misol     | Ma'nosi                     | Natija                      |
+| -------- | --------- | --------------------------- | --------------------------- |
+| `=`      | `x = y`   | Qiymat tayinlash            | `x` ga `y` qiymati beriladi |
+| `+=`     | `x += y`  | Qo‘shib tayinlash           | `x = x + y`                 |
+| `-=`     | `x -= y`  | Ayirib tayinlash            | `x = x - y`                 |
+| `*=`     | `x *= y`  | Ko‘paytirib tayinlash       | `x = x * y`                 |
+| `/=`     | `x /= y`  | Bo‘lib tayinlash            | `x = x / y`                 |
+| `%=`     | `x %= y`  | Qoldiqni tayinlash          | `x = x % y`                 |
+| `**=`    | `x **= y` | Darajaga ko‘tarib tayinlash | `x = x ** y`                |
+
 
 <hr> <br><br><br>
 
@@ -40,11 +45,9 @@
 
 # Logical
 
-
 `and = &&` <br>
 `not = !` <br>
 `or = ||` <br>
-
 
 | Operator | Description               | Examples                                                                                             |
 | -------- | ------------------------- | ---------------------------------------------------------------------------------------------------- |
@@ -52,10 +55,9 @@
 | !        | logical not (inversion)   | !true → false !false → true                                                                          |
 | or       | logical or (dis-junction) | true or true = true <br> true or false = true <br> false or true = true <br> false or false = false  |
 
-
 <hr> <br><br><br>
 
-#  Nullish coalescing `??`
+# Nullish coalescing `??`
 
 ```
 let nullish = 123 ? false

@@ -27,7 +27,7 @@
 
 | Metod                    | Tavsif                                                                          |
 | ------------------------ | ------------------------------------------------------------------------------- |
-| Math.abs(x)              | x ning mutlaq qiymatini qaytaradi.                                              |
+| Math.abs(x)              | x ning modul qiymatini qaytaradi.                                              |
 | Math.exp(x)              | e ning x darajasini qaytaradi.                                                  |
 | Math.hypot(...values)    | Berilgan argumentlarning kvadratlari yig'indisining kvadrat ildizini qaytaradi. |
 | Math.log(x)              | x ning natural logarifmini qaytaradi.                                           |
@@ -44,11 +44,3 @@
 | Math.ceil(x)             | x ni yuqoriga qarab eng yaqin butun songa yaxlitlaydi.                          |
 | Math.floor(x)            | x ni pastga qarab eng yaqin butun songa yaxlitlaydi.                            |
 | Math.trunc(x)            | x ning butun qismini qaytaradi, kasr qismini olib tashlaydi.                    |
-
-<hr><br><br><br>
-
-# random
-
-- returns a random number between 0 (inclusive), and 1 (exclusive) [0, 1)
-- `Math.floor(Math.random() * (max - min) ) + min;` [min, max)
-- `Math.floor(Math.random() * (max - min + 1) ) + min;` [min, max]
