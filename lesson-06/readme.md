@@ -2,25 +2,35 @@
 
 - Number constructor
 - Number Properties
-- Number constructor Methods
-- Number methods
+- Number constructor (Number methods)
 - Type conversion and coercion
 
-  - … → number
-  - … → string
 
-- Number() vs new Number() farqi nima?
+
 
 <hr><br><br><br>
 
-# Number constructor
+# Constructor of Number
 
-> JavaScript-da `Number()` funksiyasi va `new Number()` konstruktorining ishlashi farqlidir. Quyida ularning asosiy farqlarini..
+>Number konstruktori ikkita asosiy vazifani bajaradi:
 
 <br>
 
-> `Number(value)` → Primitive qiymat qaytaradi
-> Agar `Number()` funksiyasi `new` so‘zisiz chaqirilsa, u berilgan qiymatni oddiy number (`primitiv`) ga o‘giradi.
+Sintaksis: 1) `Number()`  2) `new Number()`
+
+- `new` bilan chaqirilsa – Number obyektini yaratadi.
+- `new`siz xolatda chaqirilsa – qiymatni oddiy primitiv songa o‘zgartiradi.
+
+<br><br>
+
+> Oddiy qiymatni songa o‘zgartirish uchun odatda `Number(value)` usuli ko‘proq ishlatiladi. Obyekt sifatida yaratish esa kamroq uchraydi.
+
+<br>
+
+- `Number(value)` – qiymatni songa o‘zgartiradi.
+- `new Number(value)` – yangi Number obyektini yaratadi.
+
+<br>
 
 ```
 console.log(Number("123"));  // 123 (number)
@@ -30,17 +40,12 @@ console.log(Number(null));   // 0
 console.log(Number("abc"));  // NaN (Not a Number)
 ```
 
-Xususiyatlar:
 
-- Oddiy primitiv (number) qiymat qaytaradi.
-- parseInt() yoki parseFloat() ga o‘xshab ishlaydi.
-- Agar string ichida faqat raqam bo‘lsa, songa o‘giradi.
-- Noto‘g‘ri qiymat bo‘lsa, NaN qaytaradi.
 
 <br><br>
 
-> `new Number(value)` → Number Object yaratadi
-> Agar `Number()` `new` bilan chaqirilsa, u obyekt (`Number object`) yaratadi.
+> `new Number(value)` - Number Object xosil qilish
+> Agar `Number()` `new` bilan chaqirilsa, u obyekt (`Number object`) xosil qilindi.
 
 ```
 let numObj = new Number(123);
@@ -82,28 +87,35 @@ console.log(new Number(123) == 123);  // true (JS avtomatik obyektni primitive g
 
 <hr><br><br><br>
 
-# Number Constructor Methods
 
-| Metod                       | Tavsifi                                                         |
-| --------------------------- | --------------------------------------------------------------- |
-| Number.isFinite(value)      | Berilgan qiymat cheksiz emasligini tekshiradi.                  |
-| Number.isInteger(value)     | Berilgan qiymat butun son (integer) ekanligini tekshiradi.      |
-| Number.isNaN(value)         | Berilgan qiymat NaN ekanligini tekshiradi.                      |
-| Number.isSafeInteger(value) | Berilgan qiymat JS da xavfsiz butun son ekanligini tekshira di. |
-| Number.parseFloat(value)    | String yoki boshqa qiymatni floating-point songa aylantiradi.   |
+# `Number` constructor metodlari
 
-<hr><br><br><br>
+<br>
 
-# Number methods
+| Metod | Tavsifi | Misol |
+|-------|---------|-------|
+| **Number.isFinite(value)** | Qiymat cheksiz emasligini tekshiradi | `Number.isFinite(10) - true` |
+| **Number.isInteger(value)** | Qiymat butun son ekanini tekshiradi | `Number.isInteger(10) - true` |
+| **Number.isNaN(value)** | Qiymat `NaN` ekanini tekshiradi | `Number.isNaN(NaN) - true` |
+| **Number.isSafeInteger(value)** | Qiymat xavfsiz butun son ekanini tekshiradi | `Number.isSafeInteger(2**53 - 1) - true` |
+| **Number.parseFloat(value)** | Qiymatni floating-point songa o‘zgartiradi | `Number.parseFloat("3.14") - 3.14` |
+| **Number.parseInt(value)** | Qiymatni butun songa o‘zgartiradi | `Number.parseInt("42.5") - 42` |
 
-| Metod                       | Tavsifi                                         |
-| --------------------------- | ----------------------------------------------- |
-| Number.isFinite(value)      | Qiymat cheksiz emasligini tekshiradi.           |
-| Number.isInteger(value)     | Qiymat butun son ekanligini tekshiradi.         |
-| Number.isNaN(value)         | Qiymat NaN ekanligini tekshiradi.               |
-| Number.isSafeInteger(value) | Qiymat xavfsiz butun son ekanligini tekshiradi. |
-| Number.parseFloat(value)    | Qiymatni floating-point soniga aylantiradi.     |
-| Number.parseInt(value)      | Qiymatni butun son ga aylantiradi.              |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <hr><br><br><br>
 
@@ -111,12 +123,12 @@ console.log(new Number(123) == 123);  // true (JS avtomatik obyektni primitive g
 
 - … → number
   - Number constructor
-  - +n → optimal
+  - +n 
   - n \* 1
 
 <br>
 
 - … → string
   - String constructor
-  - toString() → optimal
+  - toString()
   - n + “”

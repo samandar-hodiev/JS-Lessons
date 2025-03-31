@@ -3,16 +3,17 @@
 - isNaN
   - isNaN qanday ishlaydi
   - isNaN vs Number.isNaN()
-- Boolean constructor
-- Boolean(value) vs new Boolean(value)
 - Truthy and Falsy values
+- Boolean constructor
+
+
 
 
 <hr><br><br><br>
 
 # isNaN
 
-> isNaN -
+
 > Agar qiymat NaN bo‘lsa - true qaytaradi.<br>
 > Agar qiymat raqam bo‘lsa yoki raqamga o‘girilsa - false qaytaradi.
 
@@ -27,9 +28,9 @@ Syntax: `isNaN(value)`
 - Agar qiymat son bo‘lsa, to‘g‘ridan-to‘g‘ri false qaytaradi.
 - Agar qiymat string bo‘lsa, JS uni avtomatik raqamga o‘giradi:
 
-- "123" → 123 (raqam bo‘ldi) → false
-- "Hello" → NaN (o‘gira olmadi) → true
-- Agar qiymat boolean (true/false) bo‘lsa, true → 1, false → 0 bo‘ladi.
+- "123" - 123 (raqam bo‘ldi) - false
+- "Hello" - NaN (o‘gira olmadi) - true
+
 - Agar qiymat undefined yoki obyekt bo‘lsa, NaN bo‘ladi.
 
 <br><br>
@@ -39,11 +40,11 @@ Syntax: `isNaN(value)`
 > isNaN() ba’zi noto‘g‘ri natijalar berishi mumkin, chunki u qiymatni avtomatik son ga aylantirishga harakat qiladi.
 
 ```
-console.log(isNaN("123"));   // false (string → number)
-console.log(isNaN("abc"));   // true  (string → NaN)
-console.log(isNaN(true));    // false (true → 1)
-console.log(isNaN(undefined));// true  (undefined → NaN)
-console.log(isNaN(null));    // false (null → 0)
+console.log(isNaN("123"));   // false (string - number)
+console.log(isNaN("abc"));   // true  (string - NaN)
+console.log(isNaN(true));    // false (true - 1)
+console.log(isNaN(undefined));// true  (undefined - NaN)
+console.log(isNaN(null));    // false (null - 0)
 ```
 
 > Yechim: Number.isNaN() – bu faqat haqiqiy NaN bo‘lsa true qaytaradi.
@@ -62,6 +63,8 @@ console.log(Number.isNaN(null));     // false
 > Agar aniq `NaN`ni tekshirmoqchi bo‘lsangiz → `Number.isNaN()` ishlatish tavsiya etiladi.!
 
 <hr><br><br><br><br>
+
+
 
 # Boolean constructor
 
@@ -97,6 +100,9 @@ console.log(new Boolean("hello"));// [Boolean: true] (Obyekt)
 
 <hr><br><br><br><br>
 
+
+
+
 # Truthy and Falsy values
 
 - Falsy values
@@ -122,3 +128,5 @@ console.log(new Boolean("hello"));// [Boolean: true] (Obyekt)
     - infinitiy
     - -infinitiy
     - ETC...
+
+<hr><br><br><br><br>

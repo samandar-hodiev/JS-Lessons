@@ -1,7 +1,7 @@
 
 <h1 style="text-align:center;">Lesson 8 </h1>
 
-- If else
+- If condition
   - if else
   - else if
 
@@ -11,7 +11,7 @@
 
 <br><br>
 
-# if else 
+# if else
 
 ```
 if (Truthy/Falsy) {
@@ -57,6 +57,11 @@ switch(expression) {
     // code block
 }
 ```
+<br>
+
+## Block schema of "switch case"
+
+<img src="./images/image.1.png" style="width:50%;">
 
 
 <br><br>
@@ -66,3 +71,7 @@ switch(expression) {
 ```
 condition ? expressionIfTrue : expressionIfFalse;
 ```
+
+## Block schema of "Conditional ternary"
+
+<img src="./images/image.2.png" style="width:50%;">

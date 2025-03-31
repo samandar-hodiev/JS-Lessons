@@ -62,7 +62,7 @@ sayHello(); // 'Hello!'
 | Parameter                             | Argument                         |
 | ------------------------------------- | -------------------------------- |
 | Funksiya e’lon qilinishida aniqlanadi | Funksiya chaqirilganda uzatiladi |
-| Misol: function sum(a, b) {}          | Misol: sum(2, 3) → a = 2, b = 3  |
+| Misol: function sum(a, b) {}          | Misol: sum(2, 3)  a = 2, b = 3  |
 
 <br>
 
@@ -94,7 +94,6 @@ function perimetr(a, b) {
 <hr><br><br><br><br>
 
 # `Return`
-
 
 - return – qiymat qaytaradi
 - console.log() – faqat konsolga chiqaradi
@@ -314,8 +313,3 @@ const sum = (a, b) => a + b;
 
 console.log(sum(3, 5)); // 8
 ```
-
-
-
-
-

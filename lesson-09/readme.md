@@ -19,8 +19,8 @@
 
 > JavaScript’da faqat `2 ta` asosiy `scope` mavjud:
 
-- Global scope 
-- Local scope (Function scope + Block scope) 
+- Global scope
+- Local scope 
 
 
 
@@ -46,7 +46,7 @@ Scope turi	Ta’rif	Qanday e’lon qilinadi
 <br>
 <br><br>
 
-# 1. Global Scope 
+# 1. Global Scope
 
 >Kodning istalgan joyidan kirish mumkin bo‘lgan o‘zgaruvchilar.
 `var`, `let`, `const` bilan kodning tashqarisida e’lon qilingan o‘zgaruvchilar global hisoblanadi.
@@ -65,7 +65,7 @@ console.log(x); // 10
 
 <br><br>
 
-# 2. Function Scope 
+# 2. Function Scope
 
 - Funksiya ichida `var`, `let`, `const` bilan e’lon qilingan o‘zgaruvchilar faqat o‘sha funksiya ichida ko‘rinadi.
 
@@ -82,7 +82,7 @@ console.log(y); //ReferenceError: y is not defined
 ```
 <br><br>
 
-# 3. Block Scope 
+# 3. Block Scope
 
 - `{}` (blok) ichida `let` yoki `const` bilan e’lon qilingan o‘zgaruvchilar faqat o‘sha blok ichida ko‘rinadi.
 - `var` esa block scopega ega emas.
@@ -103,7 +103,7 @@ console.log(z); //ReferenceError: z is not defined
   var a = 40;
 }
 
-console.log(a); // 40 
+console.log(a); // 40
 ```
 <br><br>
 
@@ -116,7 +116,7 @@ console.log(a); // 40
 
 <br><br>
 
-# 5. Lexical Scope (Closure bilan bog‘liq) 
+# 5. Lexical Scope (Closure bilan bog‘liq)
 
 - Ichki funksiya tashqi funksiyaning o‘zgaruvchilariga kira oladi.
 - Tashqi funksiyaning scope'iga ichki funksiya kirishi mumkin, lekin aksincha emas.
@@ -137,10 +137,9 @@ outer();
 >`inner()` funksiyasi `outer()` funksiyasidagi count o‘zgaruvchisiga kira oladi.
 
 
-## var let const 
+## var let const
 
 Muhim farqlar:
 - var — Global va Function scope’ni tan oladi, Block scope'ni tan olmaydi.
 - let va const — Function scope va Block scope'ni tan oladi.
 - Module scope va Lexical scope faqat ES6+ da qo‘llanadi.
-
