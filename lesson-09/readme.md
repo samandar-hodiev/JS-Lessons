@@ -20,7 +20,7 @@
 > JavaScript’da faqat `2 ta` asosiy `scope` mavjud:
 
 - Global scope
-- Local scope 
+- Local scope
 
 
 
@@ -112,8 +112,6 @@ console.log(a); // 40
 - Modul ichidagi o‘zgaruvchilar faqat o‘sha modul ichida ko‘rinadi.
 - Moduldagi o‘zgaruvchilar global scope ga chiqmaydi.
 
-`type="module"`
-
 <br><br>
 
 # 5. Lexical Scope (Closure bilan bog‘liq)
@@ -126,7 +124,7 @@ function outer() {
   let count = 0;
 
   function inner() {
-    console.log(count); // 0
+    console.log(count);
   }
 
   inner();

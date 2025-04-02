@@ -1,7 +1,8 @@
 
 <h1 style="text-align:center;">Lesson 10 </h1>
 
-- Loops
+## Loops
+
 - Why loops
 - Loop types
 - `for` loop
@@ -60,7 +61,7 @@ for (let i = 1; i <= 10; i++) {
 - ## Block schema
 
 
-<img src="./images/readme.md.png" style="width:50%;">
+<img src="./images/forLoopSchema.png" style="width:50%;">
 
 <hr><br><br><br><br>
 
@@ -193,7 +194,7 @@ while (count < 10) {
 
 ## Block schema
 
-<img src="./images/whileLoop.png" style="width:30%;">
+<img src="./images/whileSchema.png" style="width:40%;">
 
 <hr><br><br><br><br>
 
@@ -215,7 +216,7 @@ do {
 
 ## Block schema
 
-<img src="./images/doWhile.png" style="width:30%;">
+<img src="./images/doWhilwSchema.png" style="width:30%;">
 
 
 <hr><br><br><br><br>
@@ -254,7 +255,7 @@ while (i < 5) {
 ```
 ## Block schema
 
-<img src="./images/breakWhile.png" style="width:30%;">
+<img src="./images/breacWhile.png" style="width:30%;">
 
 
 
