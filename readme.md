@@ -3,9 +3,9 @@
 <h1 style="text-align:center;">JavaScript</h1>
 
 
-## 📚 Mundarija
+## 📚 Mundarija.
 
-### 1️⃣ 
+### 1️⃣
 - JavaScript nima? Uni qayerda ishlatish mumkin?
 - JavaScript tarixiga qisqacha nazar
 - Brauzerda JavaScript qanday ishlaydi?
@@ -93,4 +93,4 @@
 ## 🎬 Video Darslarni Ko'rish
 Darslarni YouTube orqali kuzatib boring:
 
-# [YouTube](https://www.youtube.com/@samandarhodiev) 
+# [YouTube](https://www.youtube.com/@samandarhodiev)
