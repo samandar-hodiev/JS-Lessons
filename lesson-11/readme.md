@@ -4,7 +4,7 @@
 
   - What is it?
   - Built-in examples
-  - Declaration and calling
+  - Function Declaration
   - Parameters vs argument
   - Example
   - Returning
@@ -39,7 +39,7 @@ JavaScript’da oldindan tayyorlangan funksiyalarga misollar:
 
 <hr><br><br><br><br>
 
-# `Declaration and calling`
+# ` Function Declaration`
 
 - Funksiyani e’lon qilish:
 

@@ -4,41 +4,41 @@
 
 JavaScript'dagi barcha array metodlari:
 
-# JavaScript Array Methods  
-# JavaScript Array Methods  
+# JavaScript Array Methods
+# JavaScript Array Methods
 
-1. `push()`  
-2. `pop()`  
-3. `unshift()`  
-4. `shift()`  
-5. `sort()`  
-6. `reverse()`  
-7. `splice()`  
-8. `fill()`  
-9. `copyWithin()`  
-10. `indexOf()`  
-11. `lastIndexOf()`  
-12. `includes()`  
-13. `slice()`  
-14. `concat()`  
-15. `join()`  
-16. `flat()`  
-17. `toString()`  
-18. `at()`  
+1. `push()`
+2. `pop()`
+3. `unshift()`
+4. `shift()`
+5. `sort()`
+6. `reverse()`
+7. `splice()`
+8. `fill()`
+9. `copyWithin()`
+10. `indexOf()`
+11. `lastIndexOf()`
+12. `includes()`
+13. `slice()`
+14. `concat()`
+15. `join()`
+16. `flat()`
+17. `toString()`
+18. `at()`
 
-## 🔥 High Order Methods  
-19. `find()`  
-20. `findIndex()`  
-21. `findLast()`  
-22. `findLastIndex()`  
-23. `map()`  
-24. `filter()`  
-25. `reduce()`  
-26. `reduceRight()`  
-27. `forEach()`  
-28. `some()`  
-29. `every()`  
-30. `flatMap()`  
+##  High Order Methods
+19. `find()`
+20. `findIndex()`
+21. `findLast()`
+22. `findLastIndex()`
+23. `map()`
+24. `filter()`
+25. `reduce()`
+26. `reduceRight()`
+27. `forEach()`
+28. `some()`
+29. `every()`
+30. `flatMap()`
 
 <hr>
 
@@ -97,7 +97,7 @@ JavaScript'dagi barcha array metodlari:
 | `at()`       | indeks bo‘yicha elementni qaytaradi (manfiy indeksni qo‘llab-quvvatlaydi) |
 
 <hr><br><br>
-<!-- 
+<!--
 # `Qidirish va o‘zgartirish`
 
 | Metod         | Tavsifi                                                                  |
